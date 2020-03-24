@@ -1,0 +1,40 @@
+/* Hide tyler's case study */
+.heroCarousel-control > div:nth-of-type(2) {
+    display: none;
+}
+
+/* Hide Retail guide */
+.heroCarousel-control > div:nth-of-type(3) {
+    display: none;
+}
+
+/* Add blue underline on active state*/
+.active {
+    border-bottom: 9px solid #0D52FF;
+}
+
+/* Remove active blue underline for h5*/
+.heroCarousel-control .control-item.active .title {
+    border-bottom: none;
+}
+
+/* Align BigCommerce product tour and set size */
+.heroCarousel-control > div:nth-of-type(1) {
+    margin: 0 0 0 auto;
+    max-width: 33.11rem;
+    width: 50%;
+}
+
+/* Align Essentials for small business */
+.heroCarousel-control > div:nth-of-type(4) {
+    margin: 0 auto 0 0;
+    max-width: 33.11rem;
+    width: 50%;
+}
+
+/* hide image for Tablet, Mobile and Small Mobiles */
+@media screen and (max-width: 1185px) {
+    .content-item.active img {
+        display: none;
+    }
+}

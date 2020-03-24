@@ -1,0 +1,24 @@
+/* Desktop */
+@media (min-width: 1081px) {
+    .sticky {
+        position: fixed;
+        top: 120px;
+        background: white;
+        z-index: 100;
+    }
+
+    .hide {
+        visibility: hidden;
+    }
+}
+
+/* Mobile and tablet */
+@media (max-width: 1080px) {
+    .sticky {
+        visibility: hidden;
+    }
+
+    .hide {
+        visibility: visible;
+    }
+}

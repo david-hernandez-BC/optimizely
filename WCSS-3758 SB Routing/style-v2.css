@@ -1,0 +1,56 @@
+.fixedBox {
+    position: fixed;
+    left: 3%;
+    bottom: 4%;
+    width: 348px;
+    height: 186px;
+    color: white;
+    text-align: center;
+    background-image: url("//cdn.optimizely.com/img/134769299/cc7623126bc24626a49c6ce0f1d3cebc.png");
+    background-color: black;
+    border-radius: 6px;
+}
+
+.fixedBoxTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 18%;
+    opacity: 0.8;
+}
+
+.fixedBoxText {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 3%;
+    opacity: 0.8;
+}
+
+.fixedBoxClose {
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    width: 25px;
+    height: 25px;
+    opacity: 0.8;
+}
+
+.fixedBoxClose:hover {
+    opacity: 1;
+}
+
+.fixedBoxClose:before, .fixedBoxClose:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 15px;
+    width: 2px;
+    background-color: white;
+}
+
+.fixedBoxClose:before {
+    transform: rotate(45deg);
+}
+
+.fixedBoxClose:after {
+    transform: rotate(-45deg);
+}

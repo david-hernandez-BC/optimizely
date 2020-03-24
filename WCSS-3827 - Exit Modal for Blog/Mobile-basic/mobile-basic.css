@@ -1,0 +1,68 @@
+.popup {
+    background-image: url("https://cdn.optimizely.com/img/134769299/2292e5f9162a456a9246bc90b1e71061.png");
+    background-size: 300px 256px;
+    width: 300px;
+    height: 256px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px; /* negative half of width above */
+    margin-top: -128px; /* negative half of height above */
+    text-align: center;
+    display: none;
+    z-index: 600;
+    font-family: Gotham Narrow A, Gotham Narrow B, Helvetica, Arial, sans-serif;
+}
+
+.close-btn {
+    background-color: black;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding-top: 5px;
+}
+
+.popup-title {
+    font-size: 1.4rem;
+    margin: -5px 20px 5px 20px;
+}
+
+.popup-text {
+    font-size: 1rem;
+    margin: 10px 10%;
+    line-height: 130%;
+}
+
+.popupBtn {
+    height: 40px;
+    width: 140px;
+    padding: 15px 0px !important;
+    cursor: pointer;
+    font-size: 0.8rem !important;
+}
+
+@media screen and (max-width: 768px) {
+    .showPopup {
+        display: block;
+    }
+
+    .addOpacity {
+        filter: opacity(0.1);
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .showPopup {
+        display: none;
+    }
+
+    .addOpacity {
+        filter: opacity(1);
+    }
+}

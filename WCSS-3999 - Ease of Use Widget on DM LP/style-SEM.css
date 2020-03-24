@@ -1,0 +1,25 @@
+.CTA-button {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: -7%;
+}
+
+.CTA-button a {
+  color: rgb(255, 255, 255);
+  background-color: rgb(75, 113, 252);
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+  .CTA-button {
+    margin-top: 5%;
+  }
+
+  #contentBlock72717 > .block-container {
+    padding-top: 0%;
+  }
+
+  .removePadding {
+    padding-bottom: 5% !important;
+  }
+}

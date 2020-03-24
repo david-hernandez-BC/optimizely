@@ -1,0 +1,65 @@
+.mobile-plan-opt {
+    display: none;
+}
+
+.previous-plan-opt {
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    padding: 1rem 0;
+}
+
+.features-opt {
+    font-weight: bold;
+}
+
+.features-standard,
+.features-plus,
+.features-pro,
+.features-enterprise {
+    display: none;
+    text-align: left;
+}
+
+.checkMark-opt {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.checkMark-opt:after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 12px;
+    border-right: 2px solid #3c64f4;
+    border-bottom: 2px solid #3c64f4;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.hide-opt {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+#CTA-standard,
+#CTA-plus,
+#CTA-pro,
+#CTA-enterprise {
+    padding: 2rem 0;
+}
+
+/* Mobile only */
+@media screen and (max-width: 767px) {
+    .mobile-plan-opt {
+        display: block;
+    }
+
+    .table-feature-matrix-row {
+        display: none;
+    }
+
+    .plan-card {
+        max-width: none;
+    }
+}

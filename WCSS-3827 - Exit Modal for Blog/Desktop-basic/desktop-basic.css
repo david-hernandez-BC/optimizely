@@ -1,0 +1,55 @@
+.popup {
+    background-image: url("https://cdn.optimizely.com/img/134769299/29321c8e13834e36a939434319770a91.png");
+    width: 660px;
+    height: 272px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -330px; /* negative half of width above */
+    margin-top: -136px; /* negative half of height above */
+    text-align: center;
+    z-index: 600;
+    font-family: Gotham Narrow A, Gotham Narrow B, Helvetica, Arial, sans-serif;
+}
+
+.close-btn {
+    background-color: black;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding-top: 5px;
+}
+
+.popup-title {
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+
+.popup-text {
+    font-size: 1.4rem;
+    margin: 10px 10%;
+}
+
+.popupBtn {
+    height: 45px;
+}
+
+body {
+    filter: opacity(0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .popup {
+        display: none;
+    }
+
+    body {
+        filter: opacity(1);
+    }
+}

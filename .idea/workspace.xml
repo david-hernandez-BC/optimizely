@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07995798-f99b-44d2-a5bc-e0f8b4e70de1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Optimizely" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UTy0aq4rTueiF6Kk5qitkfALIy" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WCSS-3827 - Exit Modal for Blog/Mobile-image" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/WCSS-3868 - CS Demo Form Simplification Tweak/request-a-demo.js" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WCSS-3827 - Exit Modal for Blog/Mobile-image" />
+      <recent name="$PROJECT_DIR$/WCSS-3827 - Exit Modal for Blog/Mobile-basic" />
+      <recent name="$PROJECT_DIR$/WCSS-3827 - Exit Modal for Blog/Desktop-image" />
+      <recent name="$PROJECT_DIR$/WCSS-3827 - Exit Modal for Blog" />
+      <recent name="$PROJECT_DIR$/WCSS-3758 SB Routing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WCSS-3827 - Exit Modal for Blog/Mobile-image" />
+      <recent name="$PROJECT_DIR$/WCSS-3827 - Exit Modal for Blog/Mobile-basic" />
+      <recent name="$PROJECT_DIR$/WCSS-3827 - Exit Modal for Blog/Desktop-image" />
+      <recent name="$PROJECT_DIR$/WCSS-3827 - Exit Modal for Blog/Desktop-basic" />
+      <recent name="$PROJECT_DIR$/WCSS-3688" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="desktop-basic.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Optimizely/WCSS-3827 - Exit Modal for Blog/Desktop-basic/desktop-basic.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="desktop-image.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Optimizely/WCSS-3827 - Exit Modal for Blog/Desktop-image/desktop-image.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Optimizely/WCSS-3980 - Choose your journey modal/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="mobile-basic.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Optimizely/WCSS-3827 - Exit Modal for Blog/Mobile-basic/mobile-basic.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="mobile-image.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Optimizely/WCSS-3827 - Exit Modal for Blog/Mobile-image/mobile-image.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.mobile-image.html" />
+        <item itemvalue="JavaScript Debug.mobile-basic.html" />
+        <item itemvalue="JavaScript Debug.desktop-image.html" />
+        <item itemvalue="JavaScript Debug.desktop-basic.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07995798-f99b-44d2-a5bc-e0f8b4e70de1" name="Default Changelist" comment="" />
+      <created>1575394657674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575394657674</updated>
+      <workItem from="1575394659627" duration="80975000" />
+      <workItem from="1576789402288" duration="3353000" />
+      <workItem from="1577732240099" duration="9182000" />
+      <workItem from="1578588128825" duration="592000" />
+      <workItem from="1578595739143" duration="199000" />
+      <workItem from="1578604100583" duration="273000" />
+      <workItem from="1578932248501" duration="31865000" />
+      <workItem from="1579535242381" duration="944000" />
+      <workItem from="1579632214929" duration="237000" />
+      <workItem from="1580148597737" duration="31190000" />
+      <workItem from="1580924389096" duration="149000" />
+      <workItem from="1581356081647" duration="33000" />
+      <workItem from="1581356161428" duration="4065000" />
+      <workItem from="1581437991757" duration="6367000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2240" y="129" key="#Intentions" timestamp="1578952463830">
+      <screen x="1680" y="-76" width="1920" height="1080" />
+    </state>
+    <state x="2240" y="129" key="#Intentions/1680.-76.1920.1080/0.0.1680.1050@1680.-76.1920.1080" timestamp="1578952463830" />
+    <state x="1680" y="-53" width="1920" height="1057" maximized="true" key="DiffContextDialog" timestamp="1579107261236">
+      <screen x="1680" y="-53" width="1920" height="1057" />
+    </state>
+    <state x="1680" y="-53" width="1920" height="1057" maximized="true" key="DiffContextDialog/1680.-53.1920.1057/0.23.1680.1027@1680.-53.1920.1057" timestamp="1579107261236" />
+    <state x="1689" y="-67" width="1902" height="1062" maximized="true" key="DiffContextDialog/1680.-76.1920.1080/0.0.1680.1050@1680.-76.1920.1080" timestamp="1578956086720" />
+    <state x="2149" y="103" key="SettingsEditor" timestamp="1575665954079">
+      <screen x="1680" y="-76" width="1920" height="1080" />
+    </state>
+    <state x="2149" y="103" key="SettingsEditor/1680.-76.1920.1080/0.0.1680.1050@1680.-76.1920.1080" timestamp="1575665954079" />
+    <state x="1780" y="24" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581443030758">
+      <screen x="1680" y="-76" width="1920" height="1080" />
+    </state>
+    <state x="1780" y="24" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1680.-53.1920.1057/0.23.1680.1027@1680.-53.1920.1057" timestamp="1578956170812" />
+    <state x="1780" y="24" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1680.-76.1920.1080/0.0.1680.1050@1680.-76.1920.1080" timestamp="1581443030758" />
+    <state x="1780" y="24" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1680.-76.1920.1080/0.23.1680.1027@1680.-76.1920.1080" timestamp="1578956147855" />
+    <state x="560" y="178" width="683" height="695" key="find.popup" timestamp="1581376548126">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="560" y="178" width="683" height="695" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1581376548126" />
+    <state x="2320" y="107" width="639" height="714" key="find.popup/1680.-76.1920.1080/0.0.1680.1050@1680.-76.1920.1080" timestamp="1579282369037" />
+    <state x="547" y="234" width="670" height="658" key="search.everywhere.popup" timestamp="1581376541825">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="547" y="234" width="670" height="658" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1581376541825" />
+    <state x="2305" y="165" width="670" height="676" key="search.everywhere.popup/1680.-76.1920.1080/0.0.1680.1050@1680.-76.1920.1080" timestamp="1579211512556" />
+  </component>
+</project>

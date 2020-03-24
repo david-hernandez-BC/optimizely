@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+
+        /*This function is executed once the page is loaded*/
+        window.addEventListener('load', function () {
+
+            /*Select one option in the revenue combo, for the first time*/
+            document.getElementById('Projected_Annual_Revenue__c').value = 'Growing business: $250k–1M revenue';
+        });
+
+    </script>
+
+    <style>
+
+        @media (min-width: 768px) {
+
+            /*First name and last name on the same column*/
+            div:nth-of-type(11), div:nth-of-type(12) {
+                display: inline-block;
+                width: 50%;
+            }
+        }
+
+        /*Hide revenue element*/
+        #Projected_Annual_Revenue__c {
+            display: none;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<!--    Online Annual Revenue-->
+<div>
+    <input type="radio" name="revenue" id="under_1_million"
+           onclick="document.getElementById('Projected_Annual_Revenue__c').value = 'Growing business: $250k–1M revenue'"
+           checked="checked">
+    <label for="under_1_million" style="font-size: 1rem;">Under $1 million annually</label>
+    <input type="radio" name="revenue" id="over_1_million" style="margin-left: 10px;"
+           onclick="document.getElementById('Projected_Annual_Revenue__c').value = 'Maturing business: $1M–20M revenue'">
+    <label for="over_1_million" style="font-size: 1rem;">Over $1 million annually</label>
+</div>
+
+
+
+<!--    Online Annual Revenue-->
+<input type="radio" name="revenue" id="under_1_million" onclick="" checked="checked">
+<label for="under_1_million" style="font-size: 1rem;">Under $1 million annually</label>
+<input type="radio" name="revenue" id="over_1_million" style="margin-left: 10px;" onclick="">
+<label for="over_1_million" style="font-size: 1rem;">Over $1 million annually</label>
+
+
+<br>
+
+<div>
+
+    <select id="Projected_Annual_Revenue__c" name="Projected_Annual_Revenue__c"
+            class="mktoField mktoHasWidth mktoRequired mktoInvalid" style="width: 230px;">
+        <option value="">Your Online Annual Revenue...</option>
+        <option value="I haven't started selling yet: no revenue">I haven't started selling yet: no revenue</option>
+        <option value="Just starting out: less than $50k revenue">Just starting out: less than $50k revenue</option>
+        <option value="Building a business: $50k–250k revenue">Building a business: $50k–250k revenue</option>
+        <option value="Growing business: $250k–1M revenue">Growing business: $250k–1M revenue</option>
+        <option value="Maturing business: $1M–20M revenue">Maturing business: $1M–20M revenue</option>
+        <option value="Established business: $20M–100M revenue">Established business: $20M–100M revenue</option>
+        <option value="Enterprise: more than $100M revenue">Enterprise: more than $100M revenue</option>
+        <option value="I'm not sure">I'm not sure</option>
+    </select>
+</div>
+</body>
+</html>

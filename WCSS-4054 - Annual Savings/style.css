@@ -1,0 +1,8 @@
+.pill {
+    background-color: #377e22;
+    border: 1px solid #377e22;
+}
+
+.pill:hover {
+    color: white;
+}

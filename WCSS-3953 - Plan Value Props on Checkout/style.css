@@ -1,0 +1,31 @@
+.newTr {
+    border-bottom: none;
+    display: block;
+    margin-top: -15px;
+}
+
+.checkMark {
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    display: inline;
+    margin-right: 10px;
+    padding: 0px 4px;
+}
+
+.checkMarkText {
+    color: black;
+    font-size: 1rem;
+}
+
+.storePlanTr {
+    font-weight: 600;
+    color: #5d5b66;
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .storePlanTr {
+        font-size: 1.15rem;
+    }
+}

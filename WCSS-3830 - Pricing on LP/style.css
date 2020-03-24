@@ -1,0 +1,45 @@
+.titleExp {
+    color: #4B71FD;
+    font-size: 1.2rem;
+}
+
+.columnExp {
+    text-align: center;
+    min-height: 350px;
+}
+
+.price {
+    font-weight: 400;
+}
+
+.price-amount {
+    font-size: 2.5rem !important;
+}
+
+.price-currency, .price-decimals, .type-large {
+    font-size: 1rem !important;
+}
+
+.p-text {
+    font-size: 0.9rem;
+}
+
+.mostPopular {
+    background-color: #5d5d69;
+    width: 100%;
+    display: block;
+    color: white;
+    margin-top: -30px;
+    height: 30px;
+    text-align: center;
+}
+
+.CTA-button {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .mostPopularMobile {
+        margin-top: 30px;
+    }
+}
