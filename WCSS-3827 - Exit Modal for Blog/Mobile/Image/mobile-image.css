@@ -10,7 +10,6 @@
     margin-left: -150px; /* negative half of width above */
     margin-top: -196px; /* negative half of height above */
     text-align: center;
-    display: none;
     z-index: 600;
 }
 
@@ -41,27 +40,19 @@
 .popupBtn {
     height: 40px;
     width: 140px;
-    padding: 15px 0px !important;
-    cursor: pointer;
     font-size: 0.8rem !important;
 }
 
-@media screen and (max-width: 768px) {
-    .showPopup {
-        display: block;
-    }
-
-    .addOpacity {
-        filter: opacity(0.1);
-    }
+body {
+    filter: opacity(0.1);
 }
 
 @media screen and (min-width: 769px) {
-    .showPopup {
+    .popup {
         display: none;
     }
 
-    .addOpacity {
+    body {
         filter: opacity(1);
     }
 }
