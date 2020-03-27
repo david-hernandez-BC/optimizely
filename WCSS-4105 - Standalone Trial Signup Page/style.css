@@ -1,0 +1,26 @@
+/* All of the form's fields at the same size */
+.form-field {
+    max-width: none;
+}
+
+/* Add space between button and paragraph */
+.form-hint > p {
+    padding-top: 30px;
+}
+
+/* Change align to left */
+.fieldRequirements-list li,
+.fieldRequirements-heading,
+.form-inlineMessage {
+    text-align: left !important;
+}
+
+/* Blue page */
+
+/* Change validation text to white and align to left */
+.fieldRequirements-list li,
+.fieldRequirements-heading,
+.form-inlineMessage {
+    color: white !important;
+    text-align: left !important;
+}
