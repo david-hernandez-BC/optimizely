@@ -4,3 +4,5 @@ document.querySelector(".close-btn").addEventListener("click", function() {
     popup.style.display = "none";
     document.querySelector("body").style.filter = "opacity(1)";
 });
+
+document.cookie = "opt-reg-exit-modal-triggered=true";
