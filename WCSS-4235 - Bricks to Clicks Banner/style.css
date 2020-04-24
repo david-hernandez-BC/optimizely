@@ -1,0 +1,50 @@
+.banner-opt {
+    /* background-color: black; */
+    background-image: url(https://cdn.optimizely.com/img/134769299/0034ffd5a3924be5a41f89e6f3afcf97.png);
+    background-size: 100%;
+    width: 100%;
+    margin-top: 0;
+    color: white;
+    display: none;
+    text-align: center;
+}
+
+.banner-opt > p {
+    padding: 15px 70px 15px 10px;
+}
+
+.click-here-opt {
+    color: white !important;
+    text-decoration: underline;
+}
+
+/* <Close button> */
+.close-btn {
+    padding-top: 1rem;
+    position: absolute;
+    right: 1%;
+    width: 32px;
+    height: 32px;
+}
+
+.close-btn:hover {
+    opacity: 0.3;
+}
+
+.close-btn:before,
+.close-btn:after {
+    position: absolute;
+    content: " ";
+    height: 20px;
+    width: 2px;
+    background-color: white;
+}
+
+.close-btn:before {
+    transform: rotate(45deg);
+}
+
+.close-btn:after {
+    transform: rotate(-45deg);
+}
+/* </Close button> */

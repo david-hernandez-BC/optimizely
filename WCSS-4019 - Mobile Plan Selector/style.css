@@ -19,6 +19,14 @@
 .features-enterprise {
     display: none;
     text-align: left;
+    padding: 0 10px;
+}
+
+.features-standard div,
+.features-plus div,
+.features-pro div,
+.features-enterprise div {
+    display: flex;
 }
 
 .checkMark-opt {
@@ -38,6 +46,7 @@
 }
 
 .hide-opt {
+    display: block !important;
     text-align: center;
     padding-top: 1.5rem;
 }

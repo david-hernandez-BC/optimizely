@@ -1,0 +1,62 @@
+.popup {
+    background-image: url("https://cdn.optimizely.com/img/134769299/a3aeb9afbedd4c2b9dbd47bae0d5f7a0.jpg");
+    width: 700px;
+    height: 255px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -350px; /* negative half of width above */
+    margin-top: -128px; /* negative half of height above */
+    text-align: left;
+    z-index: 700;
+    font-family: Gotham Narrow A, Gotham Narrow B, Helvetica, Arial, sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.popup-text {
+    font-size: 1.4rem;
+    margin: 40px 380px 10px 50px;
+    font-weight: 600;
+}
+
+.popupBtn {
+    margin-left: 50px;
+    background-color: black !important;
+}
+
+.bodyWrapper {
+    filter: blur(4px);
+}
+
+/* <Close button> */
+.close-btn {
+    padding-top: 1rem;
+    position: absolute;
+    right: 1%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    opacity: 0.3;
+}
+
+.close-btn:before,
+.close-btn:after {
+    position: absolute;
+    content: " ";
+    height: 20px;
+    width: 2px;
+    background-color: white;
+}
+
+.close-btn:before {
+    transform: rotate(45deg);
+}
+
+.close-btn:after {
+    transform: rotate(-45deg);
+}
+/* </Close button> */
