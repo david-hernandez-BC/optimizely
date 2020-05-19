@@ -1,0 +1,162 @@
+.card-opt {
+    background-size: 486px 250px;
+    color: white;
+    width: 486px;
+    height: 250px;
+    position: fixed;
+    bottom: 40px;
+    left: 50px;
+    z-index: 600;
+    text-align: center;
+    padding: 10px 30px 0 30px;
+}
+
+.gray {
+    background-image: url("https://cdn.optimizely.com/img/134769299/d12aae6a78eb4f8c820333bfef797d74.png");
+}
+
+.blue {
+    background-image: url("https://cdn.optimizely.com/img/134769299/0cd7f7b667ca40579566e06a37be54c7.png");
+}
+
+.pink {
+    background-image: url("https://cdn.optimizely.com/img/134769299/3995ac9c91a64065a15a26635760c912.png");
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.spacing {
+    padding-top: 15px !important;
+}
+
+.subscribe-opt {
+    cursor: pointer;
+    margin: 0 !important;
+}
+
+/* <Close button> */
+.close-btn {
+    padding-top: 5px !important;
+    position: absolute;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    opacity: 0.3;
+}
+
+.close-btn:before,
+.close-btn:after {
+    position: absolute;
+    content: " ";
+    height: 14px;
+    width: 2px;
+    background-color: white;
+}
+
+.close-btn:before {
+    transform: rotate(45deg);
+}
+
+.close-btn:after {
+    transform: rotate(-45deg);
+}
+/* </Close button> */
+/* Tooltip */
+.tooltip {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+}
+
+.tooltip .validation-error {
+    min-width: 200px;
+    max-width: 200px;
+    top: 50%;
+    left: 100%;
+    margin-left: 20px;
+    transform: translate(0, -50%);
+    padding: 10px 10px;
+    color: #ffffff;
+    background-color: #e51b00;
+    font-size: 15px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 99999999;
+    box-sizing: border-box;
+    border: 1px solid #9f1300;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    display: block;
+}
+
+.tooltip .validation-error i {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -12px;
+    width: 12px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.tooltip .validation-error i::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 50%;
+    transform: translate(50%, -50%) rotate(-45deg);
+    background-color: #e51b00;
+    border: 1px solid #9f1300;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Close Tooltip */
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .card-opt {
+        background-size: 355px 250px;
+        width: 355px;
+        height: 250px;
+        left: 50%;
+        margin-left: -177px;
+    }
+
+    .gray {
+        background-image: url("https://cdn.optimizely.com/img/134769299/5492baf06f8a4a4cad28d2e3342031b6.png");
+    }
+
+    .blue {
+        background-image: url("https://cdn.optimizely.com/img/134769299/09cfeac18db245d7b79211cd3289450b.png");
+    }
+
+    .pink {
+        background-image: url("https://cdn.optimizely.com/img/134769299/e0aa4a29bf4f490a86d838725ff4246a.png");
+    }
+
+    .title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 1.2;
+    }
+
+    .tooltip .validation-error {
+        top: -10px;
+        left: 50%;
+        transform: translate(-50%, -100%);
+    }
+
+    .tooltip .validation-error i {
+        top: 100%;
+        left: 50%;
+        transform: translate(-100%, 25%) rotate(-90deg);
+    }
+}
