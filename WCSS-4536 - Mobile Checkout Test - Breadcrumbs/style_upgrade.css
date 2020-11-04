@@ -1,0 +1,115 @@
+@media screen and (max-width: 767px) {
+    .checkout-steps-opt {
+        display: block;
+        width: 65%;
+        height: 50px;
+        position: fixed;
+        bottom: 40px;
+        top: 1%;
+        left: 20%;
+        z-index: 600;
+        font-size: 0.8rem;
+    }
+
+    .checkout-steps-opt > div {
+        width: 100%;
+        margin: auto;
+    }
+
+    .row-opt {
+        display: flex;
+        text-align: center;
+    }
+
+    .column-opt {
+        flex: 14%;
+        text-align: center;
+    }
+
+    .line-active-opt {
+        flex: 29%;
+        border-top: 1px solid #4b72fd;
+        margin-top: 1rem;
+    }
+
+    .line-inactive-opt {
+        flex: 29%;
+        border-top: 1px solid #8e919d;
+        margin-top: 1rem;
+    }
+
+    .left-opt {
+        text-align: left;
+    }
+
+    .right-opt {
+        text-align: right;
+    }
+
+    .selected-opt {
+        background-color: #4b72fd;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        margin: auto;
+        color: #ffffff;
+        font-size: 14px;
+    }
+
+    .active-opt {
+        background-color: #edf0fe;
+        border: 1px solid #4b72fd;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .inactive-opt {
+        background-color: #ffffff;
+        border: 1px solid #8e919d;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        margin: auto;
+        color: #8e919d;
+        font-size: 14px;
+    }
+
+    .selected-text-opt {
+        font-family: "Source Sans Pro";
+        font-size: 10pt;
+        color: #486dff;
+    }
+
+    .active-text-opt {
+        font-family: "Source Sans Pro";
+        font-size: 10pt;
+        color: #8e919d;
+    }
+
+    .inactive-text-opt {
+        font-family: "Source Sans Pro";
+        font-size: 10pt;
+        color: #8e919d;
+    }
+
+    .upgrade-header--primary,
+    .upgrade-header--secondary {
+        text-align: center;
+    }
+
+    .panel {
+        display: none;
+    }
+
+    .bigdesign-navbar-wrapper .bigdesign-menu-button {
+        width: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .checkout-steps-opt {
+        display: none;
+    }
+}

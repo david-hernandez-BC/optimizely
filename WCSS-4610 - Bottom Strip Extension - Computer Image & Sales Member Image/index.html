@@ -1,0 +1,22 @@
+<div id="optimizely-extension-{{ extension.$instance }}" class="exit-modal">
+    <input type="hidden" id="typeId" name="typeId" value="{{ extension.type }}" />
+    <div class="background-opt"></div>
+    <div class="popup-opt popup-opt-v{{ extension.version }}">
+        <div class="close-btn-opt"></div>
+        <div class="grid-opt">
+            <div>
+                <div class="popup-title-opt">{{ extension.title }}</div>
+                <div class="popup-text-opt">{{ extension.text }}</div>
+                <div>
+                    <a class="button-opt" href="{{extension.buttonLink}}">{{ extension.buttonText }}</a>
+                </div>
+            </div>
+            <div class="device-img-opt-v{{ extension.version }}">
+                <img src="//cdn.optimizely.com/img/134769299/3db0516af0494638a374843d1107dc2b.png" alt="" />
+            </div>
+            <div class="person-img-opt-v{{ extension.version }}">
+                <img src="//cdn.optimizely.com/img/134769299/158e283415674b929e7aa1bd722950b3.png" alt="" />
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,168 @@
+.background-opt {
+    background-color: black;
+    width: 100%;
+    height: 330px;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 600;
+    display: block;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+    /* IE6-9 */
+}
+
+.popup-opt {
+    background-color: white;
+    width: 1000px;
+    height: 220px;
+    color: black;
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    margin-left: -500px;
+    /* negative half of width above */
+    margin-top: -110px;
+    /* negative half of height above */
+    text-align: center;
+    z-index: 600;
+    padding: 0 50px;
+    display: block;
+}
+
+.popup-opt-v1 {
+    height: 220px;
+    margin-top: -110px;
+    /* negative half of height above */
+}
+
+.popup-opt-v2 {
+    height: 250px;
+    margin-top: -125px;
+    /* negative half of height above */
+}
+
+
+/* <Close button> */
+
+.close-btn-opt {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.close-btn-opt:hover {
+    opacity: 0.3;
+}
+
+.close-btn-opt:before,
+.close-btn-opt:after {
+    position: absolute;
+    left: 15px;
+    content: " ";
+    height: 20px;
+    width: 2px;
+    background-color: black;
+}
+
+.close-btn-opt:before {
+    transform: rotate(45deg);
+}
+
+.close-btn-opt:after {
+    transform: rotate(-45deg);
+}
+
+
+/* </Close button> */
+
+.grid-opt {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    text-align: left;
+}
+
+.popup-title-opt {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 25px 0 10px 0;
+}
+
+.button-opt {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #0d52ff;
+    color: white !important;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.popup-text-opt {
+    color: #5d5d69;
+}
+
+.person-img-opt-v2,
+.device-img-opt-v1 {
+    margin-top: 5px;
+    display: block;
+}
+
+.person-img-opt-v1,
+.device-img-opt-v2 {
+    display: none;
+}
+
+@media (max-width: 1025px) {
+    .popup-opt {
+        width: 700px;
+        margin-left: -350px;
+        padding: 0 25px;
+    }
+    .popup-title-opt {
+        font-size: 1.5rem;
+        padding: 25px 0 5px 0;
+    }
+    .person-img-opt-v2,
+    .device-img-opt-v1 {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .popup-opt {
+        min-height: 220px;
+        width: 90%;
+        height: auto;
+        margin-left: -45%;
+        /* negative half of width above */
+        padding: 5%;
+    }
+    .grid-opt {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .person-img-opt-v1,
+    .person-img-opt-v2,
+    .device-img-opt-v1,
+    .device-img-opt-v2 {
+        display: none;
+    }
+    .button-opt {
+        margin-top: 5%;
+    }
+    .background-opt {
+        min-height: 400px;
+        height: 50%;
+    }
+}

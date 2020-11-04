@@ -1,0 +1,120 @@
+/* Remove your current plan box */
+.header-current-package {
+    display: none;
+}
+
+/* Center header and Making text bigger */
+.upgrade-header {
+    width: 100%;
+    text-align: center;
+}
+
+.upgrade-header--primary {
+    font-size: 2.5rem;
+}
+
+.upgrade-header--secondary {
+    font-size: 1.8rem;
+}
+
+/* Removing space between header and table, adding border */
+.upgrade-pricing-info--row {
+    display: none;
+}
+
+.plan-cards-row {
+    margin-bottom: 0;
+    padding: 0 !important;
+}
+
+.plan-card-container {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #edeff3 !important;
+}
+
+.table-feature-matrix-row > div {
+    padding: 0 !important;
+}
+
+/* Removing MOST POPULAR */
+.plan-card--best-value::before {
+    border-style: none;
+}
+
+.plan-card--best-value::after {
+    display: none;
+}
+
+@media only screen and (min-width: 769px) {
+    .medium-3 {
+        width: 25%;
+        padding: 0;
+    }
+}
+
+/* ReOrdering header and hide enterprise content */
+.plan-cards-row > div:nth-of-type(1) {
+    order: 2;
+}
+.plan-cards-row > div:nth-of-type(2) {
+    order: 3;
+}
+.plan-cards-row > div:nth-of-type(3) {
+    order: 4;
+}
+.plan-cards-row > div:nth-of-type(4) {
+    background-color: white;
+    order: 1;
+}
+
+.plan-cards-row > div:nth-of-type(4) > div {
+    display: none;
+}
+
+/* Removing enterprise column */
+td:nth-of-type(4) {
+    display: none;
+}
+
+/* Table at the same size and hide table header */
+.feature-matrix-section > th {
+    width: 25%;
+    display: none;
+}
+
+/* Border in cells of the table */
+.table-feature-matrix th,
+.table-feature-matrix td {
+    border: 1px solid #edeff3;
+}
+
+/* Center cells */
+.table-feature-matrix td {
+    text-align: center;
+}
+
+.panel-body {
+    padding: 0;
+}
+
+.panel .panel-body {
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
+    margin: 0;
+}
+
+/* Shadow int wrapper */
+.upgrade-wrapper {
+    -webkit-box-shadow: rgba(49, 52, 64, 0.2) 0 2px 12px !important;
+    box-shadow: rgba(49, 52, 64, 0.2) 0 2px 12px !important;
+    border-radius: 4px;
+}
+
+/* Remove Enterprise rows */
+tr:nth-of-type(13),
+tr:nth-of-type(14),
+tr:nth-of-type(15) {
+    display: none;
+}
