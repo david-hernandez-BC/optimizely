@@ -1,0 +1,11 @@
+/*Hide current paragraph */
+.type-large {
+    display: none;
+}
+
+.newType-large {
+    font-size: 1.17647rem !important;
+    font-weight: 300 !important;
+    line-height: 1.70588rem !important;
+    padding-top: 8px;
+}
