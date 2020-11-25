@@ -3,3 +3,8 @@ var button = document.querySelector('#ctaId');
 button.addEventListener('click', function () {
     modalLink.click();
 });
+
+
+function myFunction (){
+
+}

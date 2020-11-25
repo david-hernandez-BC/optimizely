@@ -13,6 +13,17 @@
     margin: auto;
 }
 
+
+.table-order-summary-promotion-value {
+    text-align: left !important;
+    width: 100% !important;
+}
+
+.table-order-summary-promotion-title {
+    display: none !important;
+}
+
+
 @media screen and (max-width: 767px) {
     .banner-opt > p {
         font-size: 12pt;
