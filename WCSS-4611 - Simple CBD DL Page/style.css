@@ -1,0 +1,17 @@
+#contentBlock98652 {
+    display: none;
+}
+
+.block--oneColumn > .block-container {
+    padding-top: 0 !important;
+}
+
+image-opt {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .block--oneColumn {
+        display: none;
+    }
+}

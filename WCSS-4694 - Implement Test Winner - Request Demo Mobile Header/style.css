@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    .button.mobileOnly {
+        display: inline-block;
+    }
+
+    .button.desktopOnly {
+        display: none;
+    }
+
+    h1,
+    h3,
+    p {
+        display: none !important;
+    }
+
+    .block-container {
+        padding-top: 0 !important;
+    }
+
+    .eyebrow {
+        color: black !important;
+        font-size: 20px !important;
+        font-weight: 800 !important;
+        margin: 30px 0 !important;
+    }
+
+    .flexrow > .item:nth-of-type(1) {
+        margin: 0 !important;
+
+    }
+}
+
+@media (min-width: 769px) {
+    .button.mobileOnly {
+        display: none;
+    }
+
+    .button.desktopOnly {
+        display: inline-block;
+    }
+
+    .eyebrow {
+        display: none;
+    }
+}
