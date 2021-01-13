@@ -1,0 +1,138 @@
+.popup-opt {
+    border-radius: 7px;
+    color: white;
+    display: none;
+    height: 530px;
+    left: 50%;
+    margin-left: -425px; /* negative half of width above */
+    margin-top: -275px; /* negative half of height above */
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    width: 860px;
+    z-index: 700;
+}
+
+.show-opt {
+    display: block !important;
+}
+
+.overlay {
+    background-color: #121118;
+    bottom: 0;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.50;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 600;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.divColumn {
+    display: inline-block;
+    padding: 60px;
+}
+
+.leftColumn {
+    background-color: white;
+    border-radius: 7px 0 0 7px;
+    color: black;
+}
+
+.rightColumn {
+    background-color: #0D52FF;
+    border-radius: 0 7px 7px 0;
+    color: white;
+}
+
+.popup-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.popup-text {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.img-opt {
+    padding-bottom: 30px;
+    width: 250px;
+}
+
+.button-arrow-opt {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjEzcHgiIHZpZXdCb3g9IjAgMCAyMCAxMyIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4gICAgICAgIDx0aXRsZT5Db21iaW5lZCBTaGFwZTwvdGl0bGU+ICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4gICAgICAgIDxnIGlkPSIwMC1NTUUtVHlwZS1TdHlsZS1TaGVldCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTYxMy4wMDAwMDAsIC0zNTEwLjAwMDAwMCkiIGZpbGw9IiMwRDUyRkYiIGZpbGwtcnVsZT0ibm9uemVybyI+ICAgICAgICAgICAgPGcgaWQ9IkNUQS10ZXh0LWxpbmstLS1CbHVlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0ODcuMDAwMDAwLCAzNTA0LjAwMDAwMCkiPiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTQzLjE4OTc4MiwxMS42NjA5NTA2IEwxMzkuNTA0NzAxLDcuOTE4ODA5NSBDMTM5LjE4NDUwOSw3LjU4MzgyOTkxIDEzOS4xOTY0OTcsNy4wNTI3MDg0NyAxMzkuNTMxNDc2LDYuNzMyNTE2NTYgQzEzOS44NjY0NTYsNi40MTIzMjQ2NSAxNDAuMzk3NTc3LDYuNDI0MzEyNDMgMTQwLjcxNzc2OSw2Ljc1OTI5MjAyIEwxNDUuNzYyMTQ3LDExLjg5OTE3ODUgQzE0Ni4wNzcyMzcsMTIuMjI4ODIxIDE0Ni4wNzEzNjQsMTIuNzQ5NzcwMiAxNDUuNzQ4OTIxLDEzLjA3MjIyNDQgTDE0MC43MDQ1NDMsMTguMjU0MjM3OCBDMTQwLjM3Njg3OSwxOC41ODE5MTI3IDEzOS44NDU2MjMsMTguNTgxOTIxOSAxMzkuNTE3OTQ4LDE4LjI1NDI1ODQgQzEzOS4xOTAyNzMsMTcuOTI2NTk1IDEzOS4xOTAyNjQsMTcuMzk1MzM4MyAxMzkuNTE3OTI3LDE3LjA2NzY2MzQgTDE0My4xMzUwNDIsMTMuMzM5MDQ5NCBMMTI2LjgzNTUwOSwxMy4zMzkwNDk0IEMxMjYuMzcyMTE1LDEzLjMzOTA0OTQgMTI1Ljk5NjQ2LDEyLjk2MzM5NDIgMTI1Ljk5NjQ2LDEyLjUgQzEyNS45OTY0NiwxMi4wMzY2MDU4IDEyNi4zNzIxMTUsMTEuNjYwOTUwNiAxMjYuODM1NTA5LDExLjY2MDk1MDYgTDE0My4xODk3ODIsMTEuNjYwOTUwNiBaIiBpZD0iQ29tYmluZWQtU2hhcGUiPjwvcGF0aD4gICAgICAgICAgICA8L2c+ICAgICAgICA8L2c+ICAgIDwvZz48L3N2Zz4=);
+    background-position: calc(99% - 35px) 45%;
+    background-repeat: no-repeat;
+    color: #121118;
+    display: block;
+    font-family: "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.button-arrow-opt:hover {
+    background-position: 90%;
+}
+
+.button-black-opt {
+    background: #121118;
+    border: #121118;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 23px;
+    padding: 7px 25px;
+    text-transform: uppercase;
+}
+
+.button-black-opt:hover {
+    color: #fff;
+}
+
+/* <Close button> */
+.close-btn {
+    height: 32px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: 32px;
+}
+
+.close-btn:hover {
+    opacity: 0.3;
+}
+
+.close-btn:before, .close-btn:after {
+    background-color: white;
+    content: ' ';
+    height: 15px;
+    left: 15px;
+    position: absolute;
+    width: 2px;
+}
+
+.close-btn:before {
+    transform: rotate(45deg);
+}
+
+.close-btn:after {
+    transform: rotate(-45deg);
+}
+
+/* </Close button> */

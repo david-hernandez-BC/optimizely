@@ -4,8 +4,8 @@ window.onload = function () {
     var projectedAnnualText = 'Projected_Annual_Revenue__c';
     var labelRevenueText = 'div:nth-of-type(16) .mktoLabel';
     var revenueOption1 = 'Growing business: $250k–1M revenue';
-    var revenueOption2 = 'Maturing business: $1M–20M revenue';
     var revenueOptionText1 = 'Under $1 million annually';
+    var revenueOption2 = 'Maturing business: $1M–20M revenue';
     var revenueOptionText2 = 'Over $1 million annually';
 
     var radioBtnText = '<input type="radio" name="revenue" id="under_1_million" checked="checked">';
